@@ -10,7 +10,14 @@ def subtract(a, b):
     """
     return a - b
 
+def multiply(a, b):
+    """
+    Multipliziert zwei Zahlen und gibt das Ergebnis zurück.
+    """
+    return a * b
+
 if __name__ == "__main__":
     # Beispielausgaben
     print("5 + 3 =", add(5, 3))
     print("5 - 3 =", subtract(5, 3))
+    print("5 * 3 =", multiply(5, 3))
